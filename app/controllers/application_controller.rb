@@ -1,4 +1,4 @@
-cclass ApplicationController < Sinatra::Base
+class ApplicationController < Sinatra::Base
   require 'pry'
   configure do
     set :public_folder, 'public'
